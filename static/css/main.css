@@ -1,0 +1,49 @@
+body{
+	background-color: rgb(233, 241, 255);
+}
+
+h1{
+    padding: auto;
+    bottom: 20px;
+    font-size: larger;
+    font-family: "Inconsolata", sans-serif;
+
+}
+
+.submit {
+	padding: 20px 50px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #4777fa;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 9px rgba(129, 129, 129, 0.555);
+	/* font-family: 'Press Start 2P', cursive; */
+	border: 5px solid rgb(255, 255, 255);
+	width: 20%;
+	padding: 10px;
+  }
+
+ .submit:hover {background-color: #aab3ff;}
+
+ .submit:active {
+    box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	background-color: #aab7ff;
+ }
+
+ #Welcome{
+    font-family: "Inconsolata", sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	-webkit-animation: fadein 1s;
+	animation: fadein 1s;
+}
+
+.col-lg-4{
+    font-size: 20px;
+}
+
