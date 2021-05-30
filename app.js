@@ -35,8 +35,8 @@ function createMailOptions(emailSendTo, urlOnly){
     var mailOptions = {
         from: 'ofirmichaelyforseatback@gmail.com',
         to: emailSendTo,
-        subject: 'Sending Email using Node.js',
-        text: 'That was easy!' + '\n' + urlOnly
+        subject: 'I did it!',
+        text: 'Hi Adiel!' + '\n' + 'Thank you very much for the opportunity.'+ '\n' + 'I enjoyed and learned a lot from this assignment.' + '\n' + "Here's the link:" + '\n' + urlOnly 
     }
     return mailOptions;
 }
